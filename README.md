@@ -12,9 +12,6 @@
         - Hint: red is `#FC6058`, yellow is `#FEC02F`, green is `#2ACA3E`
         - SOLUTION
           - ```
-
-            ```
-
 #dot-1{
 background-color:  #FC6058;
 }
@@ -38,11 +35,8 @@ background-color:  #2ACA3E;
   - Add html components
     - ```
 
-      ```
-
 <!-- Here we are going to add some styling to the Theme -->
 
-```
 				<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
 
 				<div id="theme-options-wrapper">
@@ -62,13 +56,10 @@ background-color:  #2ACA3E;
     - Add the code to handle the change in the color, what are the different conditions that we need to consider?
         - SOLUTIONS
             - ```
-```
-
 if(mode == 'light'){
 document.getElementById('theme-style').href = 'default.css'
 }
 
-```
 if(mode == 'blue'){
 	document.getElementById('theme-style').href = 'blue.css'
 }
@@ -82,4 +73,3 @@ if(mode == 'purple'){
 }
 
 localStorage.setItem('theme', mode)```
-```
