@@ -11,8 +11,7 @@
             - The 3 dots on the top of the page seems be all black, can we fix that?
                 - Hint: red is `#FC6058`, yellow is `#FEC02F`, green is `#2ACA3E` 
                 - SOLUTION
-                    - ```javascript
-
+```javascript
 #dot-1{
 	background-color:  #FC6058;
 }
@@ -23,7 +22,8 @@
 
 #dot-3{
 	background-color:  #2ACA3E;
-}```
+}
+```
             - Try and comment out some of the blocks and then refresh the page, do you notice any differences? eg height, width, display, boarder...
 
 
